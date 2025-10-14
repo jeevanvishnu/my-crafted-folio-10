@@ -14,7 +14,7 @@ const navLinks = [
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
   const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
@@ -66,9 +66,9 @@ export const Navigation = () => {
           <a
             href="#home"
             onClick={(e) => handleNavClick(e, "#home")}
-            className="text-2xl font-bold gradient-primary bg-clip-text text-transparent"
+            className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline-block"
           >
-            Portfolio
+            Jeevan Vishnu
           </a>
 
           {/* Desktop Navigation */}

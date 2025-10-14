@@ -67,8 +67,8 @@ export const Hero = () => {
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in-up">
             Hi, I'm{" "}
-            <span className="gradient-primary bg-clip-text text-transparent">
-              Your Name
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline-block">
+              Jeevan Vishnu
             </span>
           </h1>
 
@@ -80,8 +80,7 @@ export const Hero = () => {
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto animate-fade-in-up">
-            Crafting beautiful, functional digital experiences with cutting-edge
-            technology and creative design solutions.
+           I'm a Full Stack Developer with a passion for building web applications.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up">
@@ -105,7 +104,7 @@ export const Hero = () => {
 
           <div className="flex gap-6 justify-center animate-fade-in-up">
             <a
-              href="https://github.com"
+              href="https://github.com/jeevanvishnu"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200"
@@ -113,7 +112,7 @@ export const Hero = () => {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/jeevan-vishnu/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200"

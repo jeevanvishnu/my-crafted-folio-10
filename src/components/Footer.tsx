@@ -11,7 +11,7 @@ export const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col items-center gap-6">
           <div className="text-center">
-            <h3 className="text-2xl font-bold gradient-primary bg-clip-text text-transparent mb-2">
+            <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline-block mb-2">
               Let's Build Something Great
             </h3>
             <p className="text-muted-foreground">
@@ -22,7 +22,7 @@ export const Footer = () => {
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <span>Made with</span>
             <Heart className="h-4 w-4 text-red-500 fill-red-500 animate-pulse" />
-            <span>by Your Name</span>
+            <span>by Jeevan Vishnu</span>
           </div>
 
           <div className="text-sm text-muted-foreground">

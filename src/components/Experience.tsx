@@ -3,58 +3,49 @@ import { Card } from "@/components/ui/card";
 
 const experiences = [
   {
-    type: "work",
-    title: "Senior Full Stack Developer",
-    company: "Tech Innovations Inc.",
-    period: "2022 - Present",
+    type: "education",
+    title: "MERN Stack Developer Training",
+    company: "Brototype",
+    period: "2024 - Present",
     description:
-      "Leading development of enterprise-scale applications, mentoring junior developers, and architecting cloud solutions.",
+      "Learning full-stack web development through hands-on projects, focusing on building real-world applications using MongoDB, Express, React, and Node.js.",
     achievements: [
-      "Reduced application load time by 60%",
-      "Mentored 5 junior developers",
-      "Implemented CI/CD pipeline",
+      "Built multiple full-stack projects including an E-commerce website",
+      "Gained strong understanding of REST APIs and authentication",
+      "Improved problem-solving and debugging skills through practical challenges",
     ],
   },
+  
   {
-    type: "work",
-    title: "Full Stack Developer",
-    company: "Digital Solutions LLC",
-    period: "2020 - 2022",
+    type: "project",
+    title: "E-commerce Website (EcoBuy)",
+    company: "Personal Project",
+    period: "2024",
     description:
-      "Developed and maintained multiple client projects, focusing on modern web technologies and responsive design.",
+      "Developed a full-featured e-commerce platform for electronic gadgets with admin and user dashboards, product offers, and payment integration.",
     achievements: [
-      "Built 15+ production applications",
-      "Improved code coverage to 85%",
-      "Led team of 3 developers",
+      "Implemented offers, referrals, and coupon systems",
+      "Created dynamic admin dashboard using EJS and Node.js",
+      "Used MongoDB for database design and Mongoose for schema management",
     ],
   },
+
   {
     type: "education",
-    title: "Bachelor of Computer Science",
-    company: "University of Technology",
-    period: "2016 - 2020",
+    title: "ITI in Plumber Trade",
+    company: "Government ITI Attingal",
+    period: "2023 - 2024",
     description:
-      "Graduated with honors, specializing in software engineering and web development.",
+      "Completed vocational training in the plumbing trade, focusing on technical skills, system installation, and safety practices while maintaining a strong interest in technology and software development.",
     achievements: [
-      "GPA: 3.8/4.0",
-      "President of Computer Science Club",
-      "Published research on ML algorithms",
+      "Developed a disciplined, hands-on work approach",
+      "Learned teamwork and precision through practical field training",
+      "Balanced technical trade learning with personal passion for programming",
     ],
   },
-  {
-    type: "work",
-    title: "Junior Developer",
-    company: "Startup Ventures",
-    period: "2019 - 2020",
-    description:
-      "Contributed to rapid prototyping and MVP development for various startup projects.",
-    achievements: [
-      "Launched 3 MVPs successfully",
-      "Learned 5 new frameworks",
-      "Worked in agile environment",
-    ],
-  },
+  
 ];
+
 
 export const Experience = () => {
   return (
@@ -62,9 +53,9 @@ export const Experience = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Experience & <span className="gradient-primary bg-clip-text text-transparent">Education</span>
+            Experience & <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline-block">Education</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full" />
+          <div className="w-20 h-1 gradient-primary mx-auto rounded-full" />
         </div>
 
         <div className="max-w-4xl mx-auto">

@@ -3,18 +3,17 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
 const skills = [
-  { name: "React & TypeScript", level: 95 },
+  { name: "React & TypeScript", level: 90 },
   { name: "Node.js & Express", level: 90 },
-  { name: "UI/UX Design", level: 85 },
-  { name: "Python & Django", level: 80 },
-  { name: "Database Design", level: 88 },
-  { name: "Cloud Services", level: 82 },
+  { name: "UI/UX Design", level: 50 },
+  { name: "Database Design", level: 50 },
+  { name: "Cloud Services", level: 50 },
 ];
 
 const stats = [
-  { icon: Coffee, label: "Projects Completed", value: "50+" },
-  { icon: Award, label: "Years Experience", value: "5+" },
-  { icon: Users, label: "Happy Clients", value: "30+" },
+  { icon: Coffee, label: "Projects Completed", value: "8+" },
+  { icon: Award, label: "Months of Learning", value: "12+" },
+  { icon: Users, label: "Team Collaborations", value: "1+" },
 ];
 
 export const About = () => {
@@ -23,24 +22,18 @@ export const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            About <span className="gradient-primary bg-clip-text text-transparent">Me</span>
+            About <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline-block">Me</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full" />
+          <div className="w-20 h-1 gradient-primary mx-auto rounded-full" />
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a passionate full-stack developer and designer with a love for creating
-              elegant solutions to complex problems. With over 5 years of experience, I
-              specialize in building responsive web applications that combine beautiful
-              design with powerful functionality.
+            Ever since I was young, I’ve been curious about how things work — not just in machines, but in the digital world too. That curiosity slowly turned into a passion for creating. What began as a simple interest in websites evolved into a journey of learning and building. I’m Jeevan Vishnu, a self-taught MERN stack developer who believes in learning by doing. Coming from a non–computer science background never held me back; instead, it motivated me to learn everything step by step — from HTML and CSS to JavaScript, and then diving deep into Node.js, Express, and MongoDB. Each project I completed strengthened my understanding of logic, design, and real-world problem-solving.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My approach is user-centered and data-driven. I believe in writing clean,
-              maintainable code and creating interfaces that users love to interact with.
-              When I'm not coding, you'll find me exploring new technologies, contributing
-              to open source, or mentoring aspiring developers.
+            For me, coding isn’t just about syntax — it’s about creating something meaningful that can make life easier or more exciting. I love challenges because they remind me how far I’ve come and how much more I can grow. When I’m not coding, I enjoy watching action movies, listening to music, and exploring new ideas that inspire me to keep improving. My journey as a developer is still ongoing, and every day I aim to become a better version of myself — one line of code at a time.
             </p>
             <Button size="lg" className="gradient-primary text-white shadow-glow">
               <Download className="mr-2 h-5 w-5" />
@@ -78,7 +71,7 @@ export const About = () => {
                 className="p-8 text-center hover:shadow-card transition-shadow glass-effect"
               >
                 <Icon className="h-12 w-12 mx-auto mb-4 text-primary" />
-                <div className="text-3xl font-bold mb-2 gradient-primary bg-clip-text text-transparent">
+                <div className="text-3xl font-bold mb-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline-block">
                   {stat.value}
                 </div>
                 <div className="text-muted-foreground">{stat.label}</div>
