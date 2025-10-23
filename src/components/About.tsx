@@ -35,9 +35,23 @@ export const About = () => {
             <p className="text-lg text-muted-foreground leading-relaxed">
             For me, coding isn’t just about syntax — it’s about creating something meaningful that can make life easier or more exciting. I love challenges because they remind me how far I’ve come and how much more I can grow. When I’m not coding, I enjoy watching action movies, listening to music, and exploring new ideas that inspire me to keep improving. My journey as a developer is still ongoing, and every day I aim to become a better version of myself — one line of code at a time.
             </p>
-            <Button size="lg" className="gradient-primary text-white shadow-glow">
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
+            <Button 
+              size="lg" 
+              className="gradient-primary text-white shadow-glow"
+              asChild
+            >
+                <a
+                href="https://drive.google.com/file/d/161EAx_-n5n0DpQ5f9VHq4PX0lwX_6DIt/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+                className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+              >
+                <Download className="h-5 w-5" />
+                Download Resume
+               
+              </a>
+
             </Button>
           </div>
 

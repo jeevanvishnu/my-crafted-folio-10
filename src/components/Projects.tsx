@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
-const categories = ["All", "Web Dev", "Design", "Mobile Apps", "Full Stack"];
+const categories = ["All", "Web Dev"];
 
 const projects = [
   {
