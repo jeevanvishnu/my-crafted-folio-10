@@ -41,7 +41,7 @@ export const About = () => {
               asChild
             >
                 <a
-                href="https://drive.google.com/file/d/161EAx_-n5n0DpQ5f9VHq4PX0lwX_6DIt/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1AiYTcf41znO0-h4rYL3HYNkLPXZv5Sp-/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
